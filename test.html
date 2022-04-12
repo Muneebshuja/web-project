@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+<title>Gillani Motors</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+<link rel="stylesheet" href="bootstrap.css">
+<link rel="stylesheet" href="style.css">
+<script src="javascript.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<script>
+	$(document).ready(function(){
+		$("#hd").click(function(){
+			$("#p1").hide();
+			});
+		});
+	$(document).ready(function(){
+			$("#hd").click(function(){
+				$("#p2").hide();
+				});
+			});
+	$(document).ready(function(){
+			$("#sh").click(function(){
+				$("#p1").show();
+				});
+			});
+	$(document).ready(function(){
+			$("#sh").click(function(){
+				$("#p2").show();
+				});
+			});
+	$(document).ready(function(){
+			$("#hid").click(function(){
+				$("#dl").hide();
+				});
+			});
+	$(document).ready(function(){
+			$("#sho").click(function(){
+				$("#dl").show();
+				});
+			});
+</script>
+<body id="grad">
+    <nav id="bar" class="navbar fixed-navbar navbar-expand">
+        <a id="le" class="navbar-brand" href="#"><h2 style="font-family: Comic Sans MS">GILLANI MOTORS</h2></a>
+        <div class="row-sm collapse navbar-collapse justify-content-sm-end" id="navbarSupportedContent">
+            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+            <li class=" nav-item"><a id="" class="nav-link" href="test.html#demo">  Home<span class="sr-only">(current)</span></a></li>
+            <li class=" nav-item"><a id="" class="nav-link" href="about.html#about"> <form action="/about"><button> About</button></form></a></li>
+            <li class=" nav-item"><a id="" class="nav-link" href="about.html#contact"><form action="/about"><button>Contact</button></form></a></li>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" style="background-color: grey" aria-labelledby="navbarDropdown">
+                       <p class="dropdown-item" ><form action="/bikes.html"> <button> Buy Bikes</button></form></p>
+                        <p class="dropdown-item" ><form action="/cars.html"> <button> Buy Cars</button></form></p>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="about.html#fb">FeedBack</a>
+                    </div>
+                </li>
+        </ul>
+        </div>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-secondary" type="submit">Search</button>
+        </form>
+        </div>
+    </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#demo" data-slide-to="3"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div style="margin-top: 60px" class="carousel-inner">
+        	<div class="carousel-item  active">
+                <img src="bike7.jpg" alt="Rider Bikes" width="100%" height="550">
+            </div>
+            <div class="carousel-item">
+                <img src="bike2.jpg" alt="Infinix" width="100%" height="550">
+            </div>
+            <div class="carousel-item">
+                <img src="car2.jpg" alt="Super Car" width="100%" height="550">
+            </div>
+            <div class="carousel-item">
+                <img src="car1.jpg" alt="Car 2" width="100%" height="550">
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+    <div class="dropdown-divider"></div>
+                              <!--  Information and Image-->
+<section class=" container jumborton py-4" id="">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+                <h2 id="h1" class="text-center" style="color: white">Motor Bikes</h2>
+                <h4 id="h2" class="text-center" style="color: white">Since 1999</h4><br>
+            <p id="p1" style="color: white">The GILLANI MOTORS has been providing you the best Motor Bikes since 1999. Here you you will get the most appropriate bike for your ride which suits your personality.</p>
+
+			<p id="p2" style="color: white">There are mainly three types of brakes: Rim brakes, caliper brakes, and drum brakes. Each type of brakes have their own unique mechanism but all have one goal, to reduce or even to completely stop the acceleration of the bicycle. A good bike should have a front and a rear brake to ensure safety when cycling specially in a very busy road. It is not easy to tell, specially for those who are new to bicycles, what kind of brakes does a bicycle have and also how good the quality is. For this matter, it would be best to ask the sales clerk or anyone in the store that can help you by providing suggestions.
+
+            </p>
+            <center>
+            <button class="btn btn-dark" onclick="changeAbout()">Change</button>
+            <button class="btn btn-dark" id="hd">Hide</button>
+            <button class="btn btn-dark" id="sh">show</button>
+        </center>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-12">
+            <div class="card bg-info" style="background-color: rgb(75, 66, 54);">
+                <img src="dan-garri-guyHDx_KeOY-unsplash.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="color: wheat;">
+                    <h5 class="card-title">HI SPEED INFINITY 150CC</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                    <form action="/bikes.html">    <a href="bikes.html"><button type="button" class="btn btn-secondary">See More</button></a></form>
+                    </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dropdown-divider"></div>
+</section>
+
+<section class=" container jumborton py-4" id="">
+    <div class="row">
+    	<div class="col-md-6 col-lg-6 col-12">
+            <div class="card bg-info" style="background-color: rgb(75, 66, 54);">
+                <img src="car1.jpg" class="card-img-top" alt="...">
+                <div class="card-body" style="color: wheat" ;>
+                    <h5 class="card-title">HI SPEED ALPHA 100CC</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                    </p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    <p>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <a href="cars.html"><button type="button" class="btn btn-secondary">See More</button></a>
+                    </div>
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+                <h2 id="h3" style="color: white" class="text-center">Luxury Cars</h2><br>
+                <dl id="dl" style="color: white">
+
+ 		           <dt>Audi</dt>
+					<dd>- Audi is one of the most reliable brands in the world. It ranks fourth.</dd><br>
+
+
+					<dt>Mercedes-Benz</dt>
+					<dd>- Mercedes have the reputation of making high-quality, luxury vehicles that are a pleasure to drive and give off an aura of professionalism and elegance.</dd><br>
+
+
+					<dt>Honda</dt>
+					<dd>- To strengthen customer trust by offering products founded on safety and offering a new level of outstanding quality</dd><br>
+
+
+					<dt>BMW</dt>
+					<dd>- The BMW Reliability Rating is 2.5 out of 5.0, which ranks it 30th out of 32 for all car brands.</dd><br>
+
+
+					<dt>Toyota</dt>
+					<dd>- The Toyota Corolla is a great midsize car that hits all the marks</dd><br>
+
+				</dl>
+				<center>
+            <button class="btn btn-dark" onclick="changemenu()">Change</button>
+            <button class="btn btn-dark" id="hid">Hide</button>
+            <button class="btn btn-dark" id="sho">show</button>
+        </center>
+        </div>
+
+    </div>
+    <div class="dropdown-divider"></div>
+
+</sectio>
+
+</section>
+<div class="container-fluid" id="foot">
+        <div class="text-center py-2">
+            <h4 id="h4" style="color: white" onclick="changeh4()">Choose A Backround Color</h4>
+            <a href="#demo"><button class="btn btn-success">Go Up</button></a>
+            <button id="red" class="btn" onclick="red()" style="background-color: red">Red</button>
+            <button id="yellow" class="btn" onclick="yellow()" style="background-color: yellow">Yellow</button>
+            <button id="blue" class="btn" onclick="blue()" style="background-color: blue">Blue</button>
+            <button id="grey" class="btn" onclick="grey()" style="background-color: grey">Grey</button>
+            <button id="pink" class="btn" onclick="pink()" style="background-color: pink">Pink</button>
+            <a href="bootstrap.html"><button class="btn btn-success">Next Page</button></a>
+        </div>
+    </div>
+</body>
+</html>

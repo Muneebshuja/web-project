@@ -1,0 +1,84 @@
+.bt:hover {
+  background-color: black;
+  color: black;
+  margin: auto;
+  padding: auto;
+}
+#bar{
+  background-color: black;
+  background-image: linear-gradient(black, purple);
+  border-bottom: 1px solid black;
+}
+#bar a {
+  color: white;
+  text-decoration: none;
+  
+}
+#bar a:hover {
+	text-decoration: none;
+  color:black;
+}
+#dec{
+  color: white;
+  text-decoration: none;
+}
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+}
+.footer { 
+  left: 0;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+#grad, #foot, #card1, #card2{
+
+  background-image: linear-gradient(black, purple);
+}
+#foot {
+
+  background-image: linear-gradient(black, purple);
+}
+#foot2 {
+
+  background-image: linear-gradient(pink, grey, black);
+  margin-top: 15px;
+}
+#frm1{
+    		background-image: linear-gradient(pink, grey, black);
+    		color: white;
+    		margin-top: 20px;
+    		border: 2px solid black;
+    		width: 55%;
+    		margin-left: auto;
+    		margin-right: auto;
+    		padding-top: 10px;
+    		padding-bottom: 10px;
+    	}
+    	#frm2{
+    		background-image: linear-gradient(black, purple);
+    		color: white;
+    		margin-top: 20px;
+    		border: 2px solid white;
+    		width: 55%;
+    		margin-left: auto;
+    		margin-right: auto;
+    		padding-top: 10px;
+    		padding-bottom: 10px;
+    	}
+    	#background{
+    		background-image: linear-gradient(pink, grey, black);
+    	}
+    	#h{
+    		margin-top: 10px;
+    		color: green;
+    	}
+    	#tn{
+    		margin-top: 10px;
+    	}

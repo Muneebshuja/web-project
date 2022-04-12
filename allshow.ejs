@@ -1,0 +1,17 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+Here are all the people:
+<ul>
+    <% people.forEach((person)) =>{ %>
+    <li><a href="/person?name=<%=person,name%%>">
+        <%=person.name %></a>
+    </li>
+    <% });%>
+</ul>
+    <br><a href='/form'>Create new Person</a>
+</body>
+</html>
